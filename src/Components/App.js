@@ -22,8 +22,6 @@ class App extends Component {
   }
 }
 
-
-
 const mapStateToProps = (state) => ({
   headerData: state.headerData,
   contentA: state.contentA,

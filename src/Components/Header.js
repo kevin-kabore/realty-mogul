@@ -3,7 +3,6 @@ import '../styles/Header.css';
 
 class Header extends Component {
   render() {
-    console.log(this.props)
     const {headerData, displayA, togglePanel } = this.props;
     let key = 1
     return (

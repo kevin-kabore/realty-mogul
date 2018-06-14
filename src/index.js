@@ -4,7 +4,6 @@ import { createStore, compose } from 'redux';
 import { Provider } from 'react-redux';
 import App from './Components/App';
 import reducer from './reducers'
-// import * as actions from './actions/index.js';
 import './styles/index.css';
 
 
