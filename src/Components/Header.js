@@ -4,7 +4,7 @@ import '../styles/Header.css';
 class Header extends Component {
   render() {
     const {headerData, displayA, togglePanel } = this.props;
-    let key = 1
+    let key = 1;
     return (
       <ul className="Header">
       {
