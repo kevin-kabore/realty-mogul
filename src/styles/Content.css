@@ -1,0 +1,18 @@
+.Content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%
+}
+
+.Content .PanelA, .Content .PanelB {
+  width: 40%;
+  height: 60vh;
+  border: 1px dotted gray;
+}
+
+.Content .PanelA:hover , .Content .PanelB:hover {
+  cursor: pointer;
+}
+.Content .hide-text {
+  background-color: #EEEEEE;
+}
